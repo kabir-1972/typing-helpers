@@ -7,7 +7,7 @@ languages:
 
 # Node.js Bangla Ascii to Unicode converter
 
-A simple webapp for converting ASCII to Unicode Bangla. Once the webapp is running you can get the string converted by calling http://localhost:1337/?bangla=‡U÷, where the ASCII string is `‡U÷`. It should respond with the Unicode result `টেস্ট`.
+A simple webapp for converting ASCII to Unicode Bangla. Once the webapp is running you can get the string converted by calling http://localhost:1337/?bangla=‡U÷, where the ASCII string is `টেস্ট`. It should respond with the Unicode result `টেস্ট`.
 
 You can also specify a format parameter, `format=bijoy`. Currently supported formats are `boisakhi`, `bangsee`, `bornosoft`, `nukta`, `phonetic`, `htmlsafehex`, `htmlsafedec`. A sample call looks like this: http://localhost:1337/?bangla=‡U÷&format=bijoy.
 
